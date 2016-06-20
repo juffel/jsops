@@ -1,6 +1,6 @@
-# J4S - JavaScript Simple Session Store
+# JSOps
 
-Client-side key-value store that provides functionality to store and retrieve JSON objects from the URL params/hash and the `window.*Storage` in a volatile or persistent way.
+Client-side key-value store that provides functionality to store and retrieve JSON objects from the URL params/hash and the `window.*Storage` in a volatile or persistent way. Can be used for storing configuration/option values.
 
 ## Get/Set URL Params
 ### Query
