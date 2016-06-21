@@ -4,7 +4,7 @@ Client-side key-value store that provides functionality to store and retrieve JS
 
 ## Get/Set URL Params
 ### Query
-THe query-part of a URL (the part after the `?`) is a part that your client normally should not care about. But there are situations where you want to get&set params in the query-part of an URL.
+The query-part of a URL (the part after the `?`) is a part that your client normally should not care about. But there are situations where you want to get&set params in the query-part of an URL.
 Sometimes you want the query-params to resemble the current state of your script so in case of a reload or share the state of these params is preserved.
 
 For example you have a navigation-sidepane that is hidden by default, but it can be made visible with a click and it is currently visible, you may want to add the state of this option in the URL:
