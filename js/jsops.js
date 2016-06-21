@@ -60,7 +60,13 @@ var jsops = (function() {
         kvobj[k] = v;
       }
     }
-    kvobj[key] = value;
+    // dont add if value == undefined || value == null
+    if (value != null && value != undefined) {
+      kvobj[key] = value;
+    }
+    else {
+      delete kvobj[key];
+    }
     var ret = [];
     for (var i in kvobj) {
       ret.push(i + "=" + kvobj[i]);
