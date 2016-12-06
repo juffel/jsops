@@ -1,3 +1,5 @@
+/* jsops v0.1 | (c) Julian Dobmann | julian.dobmann@mailbox.org | MIT License |
+ * https://github.com/juffel/jsops */
 var jsops = (function() {
   var self = {};
   
